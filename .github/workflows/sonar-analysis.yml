@@ -20,6 +20,7 @@ jobs:
         uses: actions/setup-java@v4
         with:
           java-version: '23'
+          distribution: 'temurin'
 
       - name: Cache SonarScanner packages
         uses: actions/cache@v2
