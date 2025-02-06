@@ -41,6 +41,7 @@
 	          sonar-scanner \
 		    -Dsonar.projectKey=app-secure \
                     -Dsonar.projectName=app-secure \
+		    -Dsonar.projectVersion=1.0 \
 		    -Dsonar.sources=. \
 		    -Dsonar.host.url=$SONAR_HOST_URL \
 		    -Dsonar.login=$SONAR_TOKEN
