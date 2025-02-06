@@ -22,7 +22,7 @@
 	          java-version: '23'
 	
 	      - name: Cache SonarScanner packages
-	        uses: actions/cache@v2
+	        uses: actions/cache@v3
 	        with:
 	          path: ~/.sonar/cache
 	          key: ${{ runner.os }}-sonar
