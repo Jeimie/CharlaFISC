@@ -38,7 +38,8 @@ jobs:
         env:
           SONAR_HOST_URL: https://sonarcloud.io
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: sonar-scanner \
+        run: |
+            sonar-scanner \
             -Dsonar.projectKey=app-secure \
             -Dsonar.organization=jeimie \
             -Dsonar.sources=. \
